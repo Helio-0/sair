@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/encontro.js"></script>
+    <title>Decidindo Lugar </title>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <h1 id="titulo-encontro">Onde vamos ir? 🥰</h1>
+            <p class="subtitulo">Escolhe uma opção:</p>
+
+            <div class="opcoes">
+                <button class="opcao" data-opcao="Sushi 🍣">🍣 Sushi</button>
+                <button class="opcao" data-opcao="Pizza 🍕">🍕 Pizza</button>
+                <button class="opcao" data-opcao="Café ☕">☕ Café</button>
+                <button class="opcao" data-opcao="Bar 🍻">🍻 Bar</button>
+                <button class="opcao" data-opcao="Shopping 🛍️">🛍️ Shopping</button>
+
+            </div>
+
+            <p id="resultado"></p>
+
+            <div id="agendamento" class="agendamento oculto">
+                <label for="data">📅 Data</label>
+                <input type="date" id="data">
+
+                <label for="horario">🕒 Horário</label>
+                <input type="time" id="horario">
+
+                <button id="btn-confirmar" class="btn-confirmar">Confirmar encontro</button>
+            </div>
+
+            <p id="confirmacao"></p>
+        </div>
+    </main>
+</body>
+
+</html>
