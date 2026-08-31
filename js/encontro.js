@@ -11,7 +11,7 @@ function escolher(btn) {
 
     const escolha = btn.dataset.opcao;
     const resultado = document.getElementById("resultado");
-    resultado.innerText = `Combinado! Vamos comer ${escolha} 💕`;
+    resultado.innerText = `Combinado! ${escolha} 💕`;
 
     // mostra o campo de data e horário
     const agendamento = document.getElementById("agendamento");
