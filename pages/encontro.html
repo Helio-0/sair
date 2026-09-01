@@ -16,7 +16,6 @@
             <p class="subtitulo">Escolhe uma opção:</p>
 
             <div class="opcoes">
-                <button class="opcao" data-opcao="Vamos comer Sushi 🍣">🍣 Sushi</button>
                 <button class="opcao" data-opcao="Vamos comer Pizza 🍕">🍕 Pizza</button>
                 <button class="opcao" data-opcao="Vamos tomar Café ☕">☕ Café</button>
                 <button class="opcao" data-opcao="Vamos ir ao Bar 🍻">🍻 Bar</button>
@@ -27,11 +26,15 @@
             <p id="resultado"></p>
 
             <div id="agendamento" class="agendamento oculto">
-                <label for="data">📅 Data</label>
-                <input type="date" id="data">
+                <p class="aviso-agenda">📚 Escolhe o dia (depois da prova do semestre):</p>
 
-                <label for="horario">🕒 Horário</label>
-                <input type="time" id="horario">
+                <div class="dias-semana">
+                    <button class="dia" data-dia="Segunda-feira">Segunda</button>
+                    <button class="dia" data-dia="Terça-feira">Terça</button>
+                    <button class="dia" data-dia="Quarta-feira">Quarta</button>
+                    <button class="dia" data-dia="Quinta-feira">Quinta</button>
+                    <button class="dia" data-dia="Sexta-feira">Sexta</button>
+                </div>
 
                 <button id="btn-confirmar" class="btn-confirmar">Confirmar encontro</button>
             </div>
